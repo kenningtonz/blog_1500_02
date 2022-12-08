@@ -1,20 +1,39 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body{
+    background-color: rgb(227, 255, 175);
+}
+
 h1{
-    text-align:justify;
+    text-align:center;
     font-size: 30px;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 h2{
-    text-align:justify;
+    text-align:center;
     font-size: 25px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 p{
-    text-align:justify;
+    text-align:center;
     font-size: 15px;
+}
+
+img{
+    margin-inline: auto;
+}
+
+article{
+    margin: 100px 300px 100px 300px;
+    text-align: center;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+
+time{
+    text-align:center;
+    font-size: 15px;
+    display: block;
 }
